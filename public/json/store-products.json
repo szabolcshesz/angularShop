@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Samsung Galaxy S6",
+    "PID":"SamsungGS6-Prod001",
+    "description": "Fast, high resolution smartphone from Samsung.",
+    "price": 580.50,
+    "dimensions": "143/70/7",
+    "weight": "138g",
+    "os": "Android",
+    "cpu": "2.1GHz",
+    "memory": "32Gb/64Gb/128Gb",
+    "color": "black/white",
+    "display": 5.1,
+    "canPurchase": true,
+    "soldOut": false,
+    "images": [
+      "images/galaxyS6.png",
+      "images/galaxyS6.png",
+      "images/galaxyS6.png"
+    ],
+    "reviews": [{
+    "stars": 5,
+    "body": "I love this phone!",
+    "author": "joe@example.org",
+    "createdOn":"12.10.2015"
+  }, {
+    "stars": 1,
+    "body": "This phone sucks.",
+    "author": "tim@example.org",
+    "createdOn":"24.09.2015"
+  }]
+  },
+  {
+    "name": "Iphone 4",
+    "PID":"Iphone4-Prod002",
+    "description": "Fast, high resolution Iphone from Apple.",
+    "price": 110.50,
+    "dimensions": "115/58/9",
+    "weight": "137g",
+    "os": "IOS",
+    "cpu": "1GHz",
+    "memory": "16Gb/32Gb",
+    "color": "black/white",
+    "display": 3.5,
+    "canPurchase": true,
+    "soldOut": false,
+    "images": [
+      "images/iphone4.png",
+      "images/iphone4.png",
+      "images/iphone4.png"
+    ],
+    "reviews": [{
+    "stars": 5,
+    "body": "I could only recommend this product!",
+    "author": "joe@example.org"
+  }, {
+    "stars": 1,
+    "body": "This phone sucks.",
+    "author": "tim@example.org"
+  }]
+  },
+  {
+    "name": "Iphone 5",
+    "PID":"Iphone5-Prod003",
+    "description": "Fast, high resolution Iphone from Apple.",
+    "price": 320.50,
+    "dimensions": "123/58/8",
+    "weight": "112g",
+    "os": "IOS",
+    "cpu": "1.3GHz",
+    "memory": "32Gb/64Gb",
+    "color": "black/white",
+    "display": 4,
+    "canPurchase": true,
+    "soldOut": false,
+    "images": [
+      "images/iphone5.png",
+      "images/iphone5.png",
+      "images/iphone5.png"
+    ],
+    "reviews": [{
+    "stars": 4,
+    "body": "I love this even better then my Iphone4. Amazing!",
+    "author": "joe@example.org"
+  }, {
+    "stars": 5,
+    "body": "It has a better camera then Iphone 4",
+    "author": "tim@example.org"
+  }]
+  },
+  {
+    "name": "Iphone 6",
+    "PID":"Iphone6-Prod004",
+    "description": "Fast, high resolution Iphone from Apple.",
+    "price": 556.50,
+    "dimensions": "138/67/7",
+    "weight": "129g",
+    "os": "IOS",
+    "cpu": "1.4GHz",
+    "memory": "32Gb/64Gb/128Gb",
+    "color": "black/white",
+    "display": 4.7,
+    "canPurchase": true,
+    "soldOut": false,
+    "images": [
+      "images/iphone6.png",
+      "images/iphone6.png",
+      "images/iphone6.png"
+    ],
+    "reviews": [{
+    "stars": 4,
+    "body": "Brilliant performance, but slightly bigger then I like",
+    "author": "joe@example.org"
+  }, {
+    "stars": 4,
+    "body": "Very good phone, however I don't like Itunes",
+    "author": "tim@example.org"
+  }]
+  }
+]

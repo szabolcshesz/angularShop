@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="myStore">
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./style.css" media="screen" title="no title" charset="utf-8">
+        <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+        <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-route.js"></script>
+        <script type="text/javascript" src="javascript/app.js"></script>
+        <script type="text/javascript" src="javascript/products.js"></script>
+    </head>
+    <body ng-controller="StoreController as store">
+        <!--  Store Header  -->
+        <header>
+            <div class="container">
+                <div class="jumbotron">
+                  <!--Header top:Basket plus shop name -->
+                  <div>
+                  <div class="container button-wrapper" ng-controller="cartBtnController" ng-hide="cartButton==true">
+                    <button class="btn btn-danger btn-lg" data-toggle="tooltip" data-placement="bottom" title="You don't have any product(s) in your cart."><span class="glyphicon glyphicon-shopping-cart"></span> <span class="items">{{product.cart}}</span></button>
+                  </div>
+
+                    <h2 class="text-left">Vibe Phone Webshop</h2>
+                    <h3 class="text-left">-the angularJS store-</h3>
+                  </div>
+
+                  <!--Header bottom: search bar  -->
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="input-group">
+                          <input ng-model="search" type="text" class="form-control" placeholder="Search for...">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                          </span>
+                        </div><!-- /input-group -->
+                      </div><!-- /.col-lg-6 -->
+                      <div class="col-lg-6">
+
+                      </div><!-- /.col-lg-6 -->
+                    </div><!-- /.row -->
+
+                </div> <!-- / jumbotron-->
+            </div> <!-- /DIV Container -->
+        </header>
+        <!-- STORE Body / Controlled by Routes-->
+    <div ng-view></div>
+    </body>
+</html>

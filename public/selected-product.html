@@ -1,0 +1,34 @@
+
+<div class="container">
+    <div class="well">
+    <p class="text-info">
+      Thanks for shopping at the Vibe Phone Store.
+      This is your shopping cart. </br>Here you can edit the items,
+      go back to the store, clear the basket, or check out.</p>
+    </div>
+    <div class="container-fluid">
+      <div class="row-fluid">
+    </div>
+    </div>
+
+
+<p>this is your selected product:{{productService.selectedProduct(product)}}</p>
+<p>from the directive: {{selectedProduct.productList(product)}}</p>
+{{this.basket}}
+<p>{{product}}</p>
+{{this.cart}}
+    <!-- buttons -->
+    <div class="span4">
+      <p class="text-info">
+        <button
+          class="btn btn-success btn-sm"
+          onclick="location.href='index.html';">
+        <span class="glyphicon glyphicon-menu-left"></span> back to store
+        </button>
+        <button
+          class="btn btn-warning btn-sm" >
+            <span class="glyphicon glyphicon-trash"></span> clear cart
+        </button>
+      </p>
+    </div>
+</div>
